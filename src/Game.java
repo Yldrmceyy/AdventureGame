@@ -48,11 +48,11 @@ public class Game {
                     location = new River(player);
                     break;
                 default:
-                    System.out.println("Lütfen Geçerli bir bölge giriniz.");
+                    System.out.println("Lütfen Geçerli Bir Bölge Giriniz.");
 
             }
             if (location == null) {
-                System.out.println("Bu karanlık ve sisli adadan çabuk vazgeçtin..");
+                System.out.println("Bu Karanlık ve Sisli Adadan Çabuk Vazgeçtin..");
                 break;
 
             }

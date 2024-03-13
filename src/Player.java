@@ -1,23 +1,23 @@
 import java.util.Scanner;
 
-public class Player {   // encapsulatıon yapabilmek için prıvate tanımlıyoruz.
+public class Player {
     private int damage;
     private int health;
     private int orjinalHealth;
     private int money;
     private String name;
-    private String charName;  //karakter name
+    private String charName;
     public Scanner input = new Scanner(System.in);
     private Inventory inventory;
 
 
     public Player(String name) {
-        this.name = name;  // oyuncunun adını dısrıdan aldıgın name e eşitliyoruz
-        this.inventory = new Inventory(); //player olsutugunda otomatık ıcı bos ınverntroy olussun
+        this.name = name;
+        this.inventory = new Inventory();
     }
 
     public void selectChar() {
-        GameChar[] charList = {new Samurai(), new Archer(), new Knight()};  //diziye atıyoruzkarakter nesnelerini
+        GameChar[] charList = {new Samurai(), new Archer(), new Knight()};
         System.out.println("Karakterler");
         System.out.println("--------------------------------------------------------------------------------");
         for (GameChar gameChar : charList) {
@@ -43,13 +43,7 @@ public class Player {   // encapsulatıon yapabilmek için prıvate tanımlıyor
             default:
                 initPlayer(new Samurai());
         }
-        /*System.out.println("Karakter: " + this.getCharName() +
-                ", Hasar: " + this.getDamage() +
-                ", Sağlık: " + this.getHealth() +
-                ", Para: " + this.getMoney());*/
-
     }
-
 
     public void initPlayer(GameChar gameChar) {
         this.setCharName(gameChar.getName());
@@ -59,7 +53,7 @@ public class Player {   // encapsulatıon yapabilmek için prıvate tanımlıyor
         this.setMoney(gameChar.getMoney());
     }
 
-    public void printInfo() {  //playerın durumunu bastır
+    public void printInfo() {
         System.out.println(
                 "Silah: " + this.getInventory().getWeapon().getName() +
                         ", Zırh: " + this.getInventory().getArmor().getName() +

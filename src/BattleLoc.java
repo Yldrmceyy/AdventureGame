@@ -25,7 +25,7 @@ public abstract class BattleLoc extends Location {
         if (selectCase.equals("S") && combat(obsNumber)) {
             //Savaşma İşlemi
             System.out.println(this.getName() + " tüm düşmanları yendiniz.");
-                return true;
+            return true;
         }
         if (this.getPlayer().getHealth() <= 0) {
             System.out.println("Öldünüz");
@@ -38,7 +38,7 @@ public abstract class BattleLoc extends Location {
 
         for (int i = 1; i <= obsNumber; i++) {
             this.getObstacle().setHealth(this.getObstacle().getOrjinalHealth());
-            playerStats();  //oyuncunun istatistiklerini veren method
+            playerStats();
             obstacleStats(i);
             while (this.getPlayer().getHealth() > 0 && this.getObstacle().getHealth() > 0) {
                 System.out.println("<V>ur veya <K>aç");

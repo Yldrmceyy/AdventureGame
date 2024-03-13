@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public abstract class Location {    //bır sey üretilemesini istemşyorım ooyuzcde abstarxt
+public abstract class Location {
     private Player player;
     private String name;
-    public static Scanner input=new Scanner(System.in); //static olmadan da yaabilirisin farklılık olsun
+    public static Scanner input=new Scanner(System.in);
 
     public Location(Player player, String name) {
         this.player = player;

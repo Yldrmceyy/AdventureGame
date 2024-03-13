@@ -20,7 +20,7 @@ public class Weapon {
         return weaponList;
     }
 
-    public static Weapon getWeaponObjByID(int id) {  //ıd ye göre objeyi getir.
+    public static Weapon getWeaponObjByID(int id) {
         for (Weapon w : Weapon.weapons()) {
             if (w.getId() == id) {
                 return w;

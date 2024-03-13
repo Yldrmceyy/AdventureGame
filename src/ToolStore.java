@@ -15,9 +15,8 @@ public class ToolStore extends NormalLoc {
             int selectCase = Location.input.nextInt();
             while (selectCase < 1 || selectCase > 3) {
                 System.out.println("Geçersiz Değer, tekrar giriniz: ");
-                selectCase = Location.input.nextInt();    //ata sınıfınfan geldiği için böyle de yazabiliyoruz.Static neden tanımladım? 1
-                // kere tanımlansın her locationdan bir nesne ürettiğimde;
-                // (alt sınıflarda da dahil olmak üzere)tekrar üretilsin istemiyorum.hafızadan tasarruf
+                selectCase = Location.input.nextInt();
+
             }
             switch (selectCase) {
                 case 1:
