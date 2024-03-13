@@ -1,31 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="090be26e-430f-4af9-8503-1aa9ff496946" name="Changes" comment="" />
+    <list default="true" id="090be26e-430f-4af9-8503-1aa9ff496946" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaceraOyunu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BattleLoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Forest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalLoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Obstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/River.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SafeHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Samurai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToolStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vampire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zombie.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2daQo8j0VvTSplonDo58H44SKSe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MaceraOyunu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
