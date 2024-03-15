@@ -24,6 +24,7 @@ public class Game {
             System.out.println("3-Mağara ----> Ödül <Yemek>, Dikkatli ol karşına zombi çıkabilir.");
             System.out.println("4-Orman ----> Ödül <Odun>, Dikkatli ol karşına vampir çıkabilir.");
             System.out.println("5-Nehir ----> Ödül <Su>, Dikkatli ol karşına ayı çıkabilir.");
+            System.out.println("6-Maden ----> Ödül <Weapon, Armor, Money >, Dikkatli ol karşına ayı çıkabilir.");
             System.out.println("0-Çıkış Yap ----> Oyunu Sonlandır.");
 
             System.out.println("Lütfen gitmek istediğiniz bölgeyi seçiniz: ");
@@ -46,6 +47,9 @@ public class Game {
                     break;
                 case 5:
                     location = new River(player);
+                    break;
+                case 6:
+                    location = new Mine(player);
                     break;
                 default:
                     System.out.println("Lütfen Geçerli Bir Bölge Giriniz.");

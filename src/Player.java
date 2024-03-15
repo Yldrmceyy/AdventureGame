@@ -22,7 +22,7 @@ public class Player {
         System.out.println("--------------------------------------------------------------------------------");
         for (GameChar gameChar : charList) {
             System.out.println("ID: " + gameChar.getId() +
-                    "\t Karakter: " + gameChar.getName() +
+                    "\t\t Karakter: " + gameChar.getName() +
                     "\t\t Hasar: " + gameChar.getName() +
                     "\t\t Sağlık: " + gameChar.getHealth() +
                     "\t\t Para: " + gameChar.getMoney());
